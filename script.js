@@ -45,4 +45,19 @@ var boxes = document.querySelectorAll('.box');
 // }
 
 var name = "Becky Marshall";
-console.log(name,length);
+console.log(name.length);
+
+var fruits = [
+    "orange",
+    "durian",
+    "banana",
+    "pineapple",
+    "pomegranate",
+]
+
+console.log(fruits.length);
+console.log(fruits[2]);
+console.log(fruits[3].length)
+
+var daysInYear = 365.25;
+console.log(daysInYear);
