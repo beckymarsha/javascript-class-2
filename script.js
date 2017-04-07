@@ -65,3 +65,18 @@ console.log(daysInYear);
 if(fruits[3] == "banana") {
     document.body.style.backgroundColor = "#191919";
 }
+
+// ++ adds 1, -- subtracts 1
+
+console.log(boxes.length);
+
+function boxClicked(){
+        console.log("Box clicked");
+}
+
+
+for (var i = 0; i < boxes.length; i++) {
+    console.log(i);
+    boxes[i].addEventListener("click", boxClicked);
+}
+
