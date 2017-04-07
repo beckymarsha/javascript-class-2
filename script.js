@@ -61,3 +61,7 @@ console.log(fruits[3].length)
 
 var daysInYear = 365.25;
 console.log(daysInYear);
+
+if(fruits[3] == "banana") {
+    document.body.style.backgroundColor = "#191919";
+}
