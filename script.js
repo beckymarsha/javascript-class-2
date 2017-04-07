@@ -1,0 +1,46 @@
+// if, if-else, if-ifelse-else, switch, for, do/while, while
+
+// highlight multiple lines, then hold command + slash to comment all lines out
+
+var boxes = document.querySelectorAll('.box');
+//boxArray as an alternative
+
+//console.log(boxes.length); 
+
+//if (condition) {
+//    block
+//}
+
+
+// if (boxes.length >6) {
+//     console.log("There are more than four boxes")
+// } else {
+//     console.log("There are five or fewer boxes")
+// }
+
+
+// if (boxes.length < 2) {
+//     //
+// } else if (boxes.length <1) {
+//     //
+// } else {
+//     //
+// }
+
+
+// switch (boxes.length) {
+//     case 1:
+//         console.log("We have 1 box.");
+//         break;
+
+//     case 2:
+//         console.log("We have 2 boxes.");
+//         break;
+
+//     default:
+//     console.log("Default");
+//     boxes[0].style.marginLeft = 100 + "px";
+//     boxes[1].style.backgroundColor = "blue";
+//     break;
+// }
+
