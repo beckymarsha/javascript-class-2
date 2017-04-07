@@ -44,3 +44,5 @@ var boxes = document.querySelectorAll('.box');
 //     break;
 // }
 
+var name = "Becky Marshall";
+console.log(name,length);
